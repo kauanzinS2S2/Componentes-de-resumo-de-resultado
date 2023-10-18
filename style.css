@@ -1,0 +1,171 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'hanken grotesk';
+}
+
+.quadro-geral {
+    display: flex;
+    width: 480px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 7px 7px 30px 10px hsla(252, 100%, 67%, 0.12);
+}
+
+.quadro-geral .quadro-resumo {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 240px;
+    height: 350px;
+    border-radius: 8%;
+    text-align: center;
+}
+
+.quadro-resumo .resultado {
+    color: hsl(221, 100%, 96%, 0.7);
+    padding: 20px;
+}
+
+.quadro-resumo .pontuacao {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%, 0.2));
+    width: 140px;
+    height: 140px;
+    position: relative;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.pontuacao .pontuacao-total {
+    color:hsl(0, 0%, 100%);
+    font-size: 48px;
+    padding-top: 24px;
+}
+
+.pontuacao .pontuacao-maxima {
+    color: hsla(221, 100%, 96%, 0.4);
+}
+
+.quadro-resumo .avaliacao {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    padding: 20px 0px 10px 0px;
+}
+
+.quadro-resumo .classificacao {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 14px;
+    width: 180px;
+    position: relative;
+    left: 30px;
+}
+
+.quadro-sumario {
+    background-color: hsl(0, 0%, 100%);
+    width: 240px;
+    height: 350px;
+    border-radius: 8%;
+}
+
+.quadro-sumario .sumario {
+    padding: 20px 0px 5px 25px;
+    font-weight: 800;
+}
+
+.quadro-sumario .item-componente {
+    padding: 5px 0px 10px 25px;
+    margin: 10px;
+    border-radius: 9px;
+    font-weight: 700;
+}
+
+.item-componente p {
+    display: inline;
+    font-size: 14px;
+    position: relative;
+    right: 12px;
+}
+
+.item-componente .numero1 {
+    position: relative;
+    left: 40px;
+
+}
+
+.item-componente .numero2 {
+    position: relative;
+    left: 42px;
+}
+
+.item-componente .numero3 {
+    position: relative;
+    left: 52px;
+}
+
+.item-componente .numero4 {
+    position: relative;
+    left: 54px;
+}
+
+.item-componente img {
+    position: relative;
+    top: 4px;
+    right: 10px;
+    padding-right: 8px;
+}
+
+.item-componente .vermelho {
+    color: hsl(0, 100%, 67%);
+}
+
+.item-componente .amarelo {
+    color: hsl(39, 100%, 56%);
+}
+
+.item-componente .verde {
+    color: hsl(166, 100%, 37%);
+}
+
+
+.item-componente .azul {
+    color: hsl(234, 85%, 45%);
+}
+
+.fundo-vermelho {
+    background-color: hsla(0, 100%, 67%, 0.06);
+}
+
+.fundo-amarelo {
+    background-color: hsla(39, 100%, 56%, 0.06);
+}
+
+.fundo-verde {
+    background-color: hsla(166, 100%, 37%, 0.06);
+}
+
+.fundo-azul {
+    background-color: hsla(234, 85%, 45%, 0.06);
+}
+
+.botao {
+    background-color: hsl(224, 30%, 27%);
+    margin-top: 29px;
+    width: 220px;
+    text-align: center;
+    height: 44px;
+    position: relative;
+    left: 10px;
+    border-radius: 50px;
+    color: hsl(221, 100%, 96%);
+}
+
+.botao p {
+    padding-top: 10px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+
